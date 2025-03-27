@@ -1,0 +1,63 @@
+{
+    "metrics": [
+      {
+        "title": "Pending Verifications",
+        "value": "24",
+        "icon": "FileCheck"
+      },
+      {
+        "title": "New Land Records",
+        "value": "15",
+        "icon": "Landmark"
+      },
+      {
+        "title": "Active Users",
+        "value": "1,234",
+        "icon": "UserCheck"
+      },
+      {
+        "title": "Dispute Cases",
+        "value": "8",
+        "icon": "ShieldCheck"
+      }
+    ],
+    "landRecords": [
+      {
+        "id": "LR-001",
+        "owner": "Aditya",
+        "area": "2.5 acres",
+        "status": "Verified"
+      },
+      {
+        "id": "LR-002",
+        "owner": "Akshit",
+        "area": "1.8 acres",
+        "status": "Pending"
+      },
+      {
+        "id": "LR-003",
+        "owner": "Atul",
+        "area": "3.2 acres",
+        "status": "Verified"
+      }
+    ],
+    "chartData": {
+      "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+      "datasets": [
+        {
+          "label": "Land Registrations",
+          "data": [12, 19, 3, 5, 2, 3],
+          "backgroundColor": "rgba(99, 102, 241, 0.8)"
+        }
+      ]
+    },
+    "disputeData": {
+      "labels": ["Resolved", "Pending", "New"],
+      "datasets": [
+        {
+          "data": [12, 5, 3],
+          "backgroundColor": ["#10B981", "#F59E0B", "#EF4444"]
+        }
+      ]
+    }
+  }
