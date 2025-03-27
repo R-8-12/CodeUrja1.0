@@ -1,0 +1,8 @@
+Flask
+requests
+jsonify
+CORS
+uuid
+hashlib
+pymongo
+secure_filename
